@@ -13,6 +13,7 @@ import { ProfileModule } from './components/profile/profile.module';
 import { MailerModule } from '@nest-modules/mailer';
 import config from './config';
 import { HandlebarsAdapter } from '@nest-modules/mailer';
+import { QuestionTypeModule } from './components/question-type/question-type.module';
 @Module({
   imports: [
     AdminModule,
@@ -27,6 +28,7 @@ import { HandlebarsAdapter } from '@nest-modules/mailer';
     MulterModule.register({
       dest: './files/upload',
     }),
+    QuestionTypeModule,
   ],
 })
 export class AppModule {}
