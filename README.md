@@ -12,7 +12,9 @@ To start:
   7. run `npm run start:dev`
   8. in your browser , open `localhost:3001/api` to see swagger
 
-==============================================
+----------------------------------------------------------------
+
 if you like that , follow my ytb and facebook pls:
-`https://www.facebook.com/quan.nguyentrong.35325`
-and `https://www.youtube.com/channel/UCmCJIuawU-mSDhO6IAA08eA`
+----------------------------------------------------------------
+ `https://www.facebook.com/quan.nguyentrong.35325`
+ and `https://www.youtube.com/channel/UCmCJIuawU-mSDhO6IAA08eA`
