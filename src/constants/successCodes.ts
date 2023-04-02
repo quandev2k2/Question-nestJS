@@ -1,0 +1,11 @@
+export const SUCCESS_CODES: any = {
+  LOGIN_SUCCESS: 'Login success',
+  LOGOUT_SUCCESS: 'Logout success',
+  CREATE_SUCCESSFULLY: 'CREATE SUCCESSFULLY',
+  DELETE_SUCCESSFULLY: 'DELETE SUCCESSFULLY',
+  UPDATE_SUCCESSFULLY: 'UPDATE SUCCESSFULLY',
+  GET_SUCCESSFULLY: 'GET SUCCESSFULLY',
+  RESET_ATTENDANCE: 'Reset attendance this user successfully',
+  ATTENDANCE_SUCCESS: 'attendance successfully',
+  CLEAR_DATA_SUCCESS: 'Clear Data Success',
+}
