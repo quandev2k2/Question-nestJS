@@ -73,7 +73,6 @@ export class UsersController {
     return this.userService.updatePassword(Number(id), body.password, authUser);
   }
 
-  @ApiBearerAuth()
   @Post()
   create(@Body() body: CreateNewUser) {
     return this.userService.create(body);
